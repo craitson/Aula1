@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aula1</string>
+    <string name="titulo">Informe seu Nome </string>
+    <string name="quem_sou"> Eu sou:</string>
+    <string name="saudacao">Olá</string>
+    <string name="tiraFoto">Tirar Foto</string>
+    <string name="link">Abrir Link</string>
+</resources>

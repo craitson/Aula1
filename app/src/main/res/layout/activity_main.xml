@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:text="@string/titulo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/nomeEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <requestFocus />
+
+    <Button
+        android:id="@+id/saudacaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/quem_sou"
+        android:onClick="surpreenderUsuario"
+        />
+
+    <Button
+        android:id="@+id/abrirUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/link"
+        android:onClick="abrirUrl"
+    />
+
+    <Button
+        android:id="@+id/tirarFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tiraFoto"
+        android:onClick="tirarFoto"
+        />
+
+
+    <TextView
+        android:id="@+id/saudacaoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
